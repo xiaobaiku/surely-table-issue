@@ -1,0 +1,15 @@
+{
+  "extends": "./config/typescript/tsconfig.json",
+  "include": ["webpack.config.ts", "webpack/**/*"],
+  "exclude": [],
+  "compilerOptions": {
+    "composite": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}

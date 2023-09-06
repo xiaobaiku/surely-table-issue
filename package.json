@@ -1,0 +1,18 @@
+{
+  "name": "surely-table-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run-antd": "pnpm -C children-antd run serve",
+    "run-surely": "pnpm -C children-surely run serve",
+    "run-main": "pnpm -C main run dev",
+    "run-all": "run-p run-antd run-surely run-main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

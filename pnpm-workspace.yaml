@@ -1,0 +1,4 @@
+packages:
+  - "children-antd"
+  - "children-surely"
+  - "main"
